@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="top-holder">
+            <p class="dancing-script" style="font-size: larger;"><a href="index.html">Gallery Event</a></p>
+            <div id="mid-holder">
+                <h3><a href="index.html">Home</a></h3>
+                <h3><a href="register.html">Register</a></h3>
+            </div>
+            <p style="font-size: 0.5em;">6633182821 <br> 
+            Pawat Rattanasom</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="block-center">
+            <div class="container-regis">
+            <h2>Register</h2>
+
+            <div>
+            <label for="company_name">Company Name:</label><br>
+            <input type="text" id="company_name" name="company_name" required><br><br>
+            </div> 
+
+            <div>
+            <label for="booth_size">Booth Size:</label><br>
+            <select id="booth_size" name="booth_size" required>
+                <option value="10x10">10x10 feet</option>
+                <option value="10x15">10x15 feet</option>
+            </select><br><br>
+            </div>
+
+            <div>
+            <label for="table">Table:</label>
+            <input type="checkbox" id="table" name="table"><br><br>
+            </div>
+
+            <div> 
+            <label for="chairs">Number of Chairs:</label><br>
+            <input type="number" id="chairs" name="chairs" min="0" required><br><br>
+            </div>
+
+            <div>
+            <label for="contact_name">Contact Name:</label><br>
+            <input type="text" id="contact_name" name="contact_name" required><br><br>
+            </div>
+
+            <div>
+            <label for="contact_number">Contact Number:</label><br>
+            <input type="tel" id="contact_number" name="contact_number" required><br><br>
+            </div>
+
+            <div>
+            <input type="submit" value="Submit">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 6633182821 | Pawat Rattanasom </p>
+    </footer>
+</body>
+</html>
